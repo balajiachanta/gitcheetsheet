@@ -1,0 +1,18 @@
+git init
+git remote add origin {remote git url }
+git status
+git branch
+git branch -a
+git log
+git clean -d -f
+git checkout --track origin/master
+git merge master --allow-unrelated-histories
+git fetch -a
+git merge
+git push
+git pull
+git checkout -b {branch}
+git pull origin master
+git commit -m 
+git push --set-upstream origin {branch}
+git add .
